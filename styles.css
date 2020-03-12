@@ -291,16 +291,20 @@ footer a {
 	margin-right: 40px;
 }
 
+.icon-container-passioni h3 {
+  text-align: center;
+}
+
 .passione1 p {
 	width: 600px;
 	height: 100px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .passione2 p {
 	width: 600px;
 	height: 100px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
   text-align: right;
   margin-right: 40px;
 }
@@ -308,7 +312,7 @@ footer a {
 .passione3 p {
 	width: 600px;
 	height: 100px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 
