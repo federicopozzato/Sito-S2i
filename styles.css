@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+p {
+	line-height: 20px;
+}
+
+.header-container {
+  background-color: #0E1D2C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+
+.header-name {
+    position: absolute;
+    color: #F0F0F0;
+    background-color: black;
+    opacity: 0.8;
+    padding: 0 10px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.header-photo {
+	height: 400px;
+}
+
+.header-name h1, h2 {
+  margin: 0 25px;
+}
+
+.header-name h1 {
+	font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.header-name h2 {
+  font-weight: 400;
+}
+
+.menu-container {
+  background-color: #034181;
+  padding: 20px 0;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li {
+  list-style-type: none;
+  border-right: 1px solid #0C2D23;
+  padding: 0 20px;
+}
+
+.menu li:last-of-type {
+  border-right: hidden;
+}
+
+a {
+  color: #F0F0F0;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+ a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.content-container {
+  background-color: #BED6EF;
+  height: auto;
+  border-bottom: 1px solid #C66100;
+}
+
+.content {
+  height: 435px;
+}
+
+.content-text {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.content-text h1 {
+  font-size: 45px;
+}
+
+.content-text p {
+  font-weight: 400;
+  width: 415px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.logo {
+	widht: 150px;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+#social {
+	margin-bottom: 0;
+}
+
+.button {
+  background-color: #C66100;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.passions {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.icon {
+	justify-content: space-around;
+	padding: 10px 100px;
+}
+
+.icon-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-right: 1px solid #C66100;
+}
+
+.icon-container:last-of-type {
+	border-right: none;
+}
+
+.social {
+	display: flex;
+	flex-direction: row;
+}
+
+.social li {
+	list-style-type: none;
+	padding: 20px 10px 0 10px;
+}
+
+.logo-social {
+	height: 50px;
+	width: 50px;
+}
+
+.footer {
+  background-color: #0E1D2C;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+footer h5 {
+	color: #f0f0f0;
+	text-align: center;
+}
+
+footer a {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+.chi-sono {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-chi-sono {
+	height: 700px;
+	width: 965px;
+	display: flex;
+	justify-content: center;
+	padding-top: 55px;
+}
+
+
+.text-chi-sono h2 {
+	font-size: 45px;
+	margin-left: 0;
+	margin-bottom: 40px;
+}
+
+.text-chi-sono p {
+	float: left;
+}
+
+.image-chi-sono {
+	height: 400px;
+	float: right;
+	border-radius: 10px;
+	padding-left: 30px;
+}
+
+
+
+
+
+.le-mie-passioni {
+	display: flex;
+	justify-content: center;
+}
+
+.passioni {
+	height: 300px;
+	width: 965px;
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#prima-passione {
+	height: 400px;
+	padding-top: 0;
+}
+
+.passioni h2 {
+	font-size: 45px;
+	margin-left: 0;
+	margin-bottom: 40px;
+	position: relative;
+	bottom: 30px;
+}
+
+.passione1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.passione2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.passione3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passion-icon {
+	width: auto;
+	margin-bottom: 20px;
+}
+
+.icon-container-passioni {
+	width: 100px;
+	margin-right: 40px;
+}
+
+.passione1 p {
+	width: 600px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.passione2 p {
+	width: 600px;
+	height: 100px;
+	margin-bottom: 20px;
+  text-align: right;
+  margin-right: 40px;
+}
+
+
+.passione3 p {
+	width: 600px;
+	height: 100px;
+	margin-bottom: 20px;
+}
